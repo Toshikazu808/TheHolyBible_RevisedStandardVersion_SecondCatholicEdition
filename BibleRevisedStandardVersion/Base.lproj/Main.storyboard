@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Genesis 1-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="Genesis1" customModule="BibleRevisedStandardVersion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TjN-Uc-ICP">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genesis 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTi-ck-T5g">
+                                        <rect key="frame" x="177.66666666666666" y="39.666666666666664" width="73" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="eTi-ck-T5g" secondAttribute="bottom" constant="5" id="AdL-it-fyx"/>
+                                    <constraint firstItem="eTi-ck-T5g" firstAttribute="centerX" secondItem="TjN-Uc-ICP" secondAttribute="centerX" id="RYr-n6-new"/>
+                                    <constraint firstAttribute="height" constant="65" id="ZZm-LJ-gGw"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uov-0m-lvJ">
+                                <rect key="frame" x="0.0" y="75" width="428" height="851"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYN-sb-DkT" userLabel="ContainerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="2700"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Six Days of Creation and the Sabbath" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZN-ei-ZKB">
+                                                <rect key="frame" x="10" y="20" width="408" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="dgr-Ur-Obd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1     In the beginning God created the heavens and the earth." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1FG-7z-Teo">
+                                                <rect key="frame" x="10" y="61" width="408" height="40.666666666666657"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoH-pK-s82">
+                                                <rect key="frame" x="10" y="101.66666666666666" width="408" height="61"/>
+                                                <string key="text">2     The eath was without form and void, and darkness was upon the face of the deep; and the Spirit of God was moving over the face of the waters.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3     And God said, &quot;Let there be light&quot;; and there was light." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6a-So-kjh">
+                                                <rect key="frame" x="10" y="162.66666666666666" width="408" height="40.666666666666657"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4     And God saw that the light was good; and God separated the light from the darkness." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvB-7V-f7k">
+                                                <rect key="frame" x="10" y="203.33333333333331" width="408" height="40.666666666666657"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5     God called the light Day, and the darkness he called Night.  And there was evening and there was morning, one day." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdc-Tb-kKS">
+                                                <rect key="frame" x="10" y="244" width="408" height="61"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6     And God said, &quot;Let there be a firmament in the midsst of the waters, and let it separate the waters from the waters.&quot;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhJ-1T-jzk">
+                                                <rect key="frame" x="10" y="305" width="408" height="61"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWh-tU-6am">
+                                                <rect key="frame" x="10" y="366" width="408" height="81.333333333333314"/>
+                                                <string key="text">7     And God made the firmament and separated the waters which were under the firmament from the waters which were above the firmament.  And it was so.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8     And God called the firmament Heaven.  And there was evening and there was morning, a second day." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ard-MT-9Gk">
+                                                <rect key="frame" x="10" y="447.33333333333337" width="408" height="61"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2We-fx-WS6">
+                                                <rect key="frame" x="10" y="508.33333333333337" width="408" height="61"/>
+                                                <string key="text">9     And God said, "Let the waters under the heavens be gathered together into one place, and let the dry land appear."  And it was so.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10    God called the dry land Earth, and the waters that were gathered together he called Seas.  And God saw that it was good." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYh-Ba-FUG">
+                                                <rect key="frame" x="10" y="569.33333333333337" width="408" height="61"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIh-an-Pg0">
+                                                <rect key="frame" x="10" y="630.33333333333337" width="408" height="81.333333333333371"/>
+                                                <string key="text">11    And God said, "Let the earth put forth vegetation, plants hielding seed, and fruit trees bearing fruit in which is their seed, each according to its kind, upon the eart."  And it was so.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi6-I8-nY9">
+                                                <rect key="frame" x="10" y="711.66666666666663" width="408" height="81.333333333333371"/>
+                                                <string key="text">12    The earth brought forth vegetation, plants yielding seed according to their own kinds, and trees bearing fruit in which is their seed, each according to its kind.  And God saw that it was good.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13    And there was evening and there was morning, a third day." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAy-iZ-9JR">
+                                                <rect key="frame" x="10" y="794" width="408" height="40.666666666666629"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="13" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7s-8H-lLN">
+                                                <rect key="frame" x="10" y="834.66666666666663" width="408" height="81.333333333333371"/>
+                                                <string key="text">14    And God said, "Let there be lights in the firmament of the heavens to separate the day from the night; and let them be for signs and for seasons and for days and years,</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="14" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15    and let them be lights in the firmament of the heavens to give light upon the earth.&quot;  And it was so." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJH-nq-V3O">
+                                                <rect key="frame" x="10" y="916" width="408" height="40.666666666666629"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="15" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyR-cz-Hud">
+                                                <rect key="frame" x="10" y="956.66666666666674" width="408" height="61"/>
+                                                <string key="text">16    And God made the two great lights, the greater light to rule the day, and the lesser light to rule the night; he made the stars also.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="16" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17    And God set them in the firmament of the heavens to give light upon the earth," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqx-zt-HG6">
+                                                <rect key="frame" x="10" y="1017.6666666666666" width="408" height="40.666666666666629"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="17" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18    to rule over the day and over the night, and to separate the light from the darkness.  And God saw that it was good." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfU-3z-RLN">
+                                                <rect key="frame" x="10" y="1058.3333333333333" width="408" height="61"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="18" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19    And there was evening and there was morning, a fourth day." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iI9-eL-jp5">
+                                                <rect key="frame" x="10" y="1119.3333333333333" width="408" height="40.666666666666742"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="19" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPJ-Nx-XJO">
+                                                <rect key="frame" x="10" y="1160" width="408" height="61"/>
+                                                <string key="text">20    And God said, "Let the waters bring forth swarms of living creatures, and let birds fly above the earth across the firmament of the heavents."</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="20" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ao0-zg-ply">
+                                                <rect key="frame" x="10" y="1221" width="408" height="101.66666666666674"/>
+                                                <string key="text">21    So God created the great sea monsters and every living creature that moves, with which the waters swarm, according to their kinds, and every winged bird according to its kind.  and God saw that it was good.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="21" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6B-sG-Sog">
+                                                <rect key="frame" x="10" y="1322.6666666666667" width="408" height="61"/>
+                                                <string key="text">22    And God blessed them, saying, "Be fruitful and multiply and fill the waters in the seas, and let birds multiply on the earth."</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="22" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23    And there was evening and there was morning, a fifth day." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uh1-YG-rVX">
+                                                <rect key="frame" x="10" y="1383.6666666666667" width="408" height="40.666666666666742"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="23" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVa-rQ-4et">
+                                                <rect key="frame" x="10" y="1424.3333333333333" width="408" height="81.333333333333258"/>
+                                                <string key="text">24    And God said, "Let the earth bring forth living creatures according to their kinds: cattle and creeping things and beasts of the earth according to their kinds."  And it was so.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="24" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFp-ke-Ey8">
+                                                <rect key="frame" x="10" y="1505.6666666666667" width="408" height="101.66666666666674"/>
+                                                <string key="text">25    And God made the beasts of the earth according to their kinds and the cattle according to their kinds, and everything that creaps upon the ground according to its kind.  And God saw that it was good.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7b-I3-BUg">
+                                                <rect key="frame" x="10" y="1607.3333333333333" width="408" height="101.66666666666674"/>
+                                                <string key="text">26    Then God said, "Let us make man in our image, after our likeness; and let them have dominion over the fish of the sea, and over the birds of the air, and over the cattle, and over all the earth, and over every creeping thing that creeps upon the earth."</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="26" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27    So God created man in his own image, in the image of God he created him; male and female he created them." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0p-RM-8x1">
+                                                <rect key="frame" x="10" y="1709" width="408" height="61"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="27" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYO-Nx-3Bh">
+                                                <rect key="frame" x="10" y="1770" width="408" height="101.66666666666674"/>
+                                                <string key="text">28    And God blessed them, and God said to them, "Be fruitful and multiply, and fill the earth and subdue it; and have dominion over the fish of the sea and over the birds of the air and over every living thing that moves upon the earth."</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="28" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3n-hC-0ZB">
+                                                <rect key="frame" x="10" y="1871.6666666666667" width="408" height="81.333333333333258"/>
+                                                <string key="text">29    And God said, "Behold, I have given you every plant yielding seed which is upon the face of all the earth, and every tree with seed in its fruit; you shall have them for food.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="29" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEP-vZ-FWT">
+                                                <rect key="frame" x="10" y="1953" width="408" height="81.333333333333258"/>
+                                                <string key="text">30    And to every beast of the earth, and to every bird of the air, and to everything that creeps on the earth, everything that has the breath of life, I have given every green plant for food."  And it was so.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="30" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NLl-vg-iEV">
+                                                <rect key="frame" x="10" y="2034.3333333333335" width="408" height="61"/>
+                                                <string key="text">31    And God saw everything that he had made, and behold, it was very good.  And there was evening and there was morning, a sixth day.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="ard-MT-9Gk" secondAttribute="trailing" constant="10" id="0Wk-hO-jIt"/>
+                                            <constraint firstItem="rZN-ei-ZKB" firstAttribute="top" secondItem="vYN-sb-DkT" secondAttribute="top" constant="20" id="0b5-ok-fPw"/>
+                                            <constraint firstItem="I7s-8H-lLN" firstAttribute="top" secondItem="bAy-iZ-9JR" secondAttribute="bottom" id="18Z-tc-8Uo"/>
+                                            <constraint firstItem="Ao0-zg-ply" firstAttribute="top" secondItem="qPJ-Nx-XJO" secondAttribute="bottom" id="1nm-88-cUS"/>
+                                            <constraint firstAttribute="height" constant="2700" id="1zp-X4-yTY"/>
+                                            <constraint firstAttribute="trailing" secondItem="1FG-7z-Teo" secondAttribute="trailing" constant="10" id="2uE-vx-Tl4"/>
+                                            <constraint firstItem="GfU-3z-RLN" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="2xU-I1-s35"/>
+                                            <constraint firstItem="zhJ-1T-jzk" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="4nJ-My-dEu"/>
+                                            <constraint firstItem="Uh1-YG-rVX" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="5tw-vD-AmA"/>
+                                            <constraint firstItem="uYh-Ba-FUG" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="62p-Qv-l2E"/>
+                                            <constraint firstItem="qPJ-Nx-XJO" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="6Kh-Ub-6fq"/>
+                                            <constraint firstItem="1FG-7z-Teo" firstAttribute="top" secondItem="rZN-ei-ZKB" secondAttribute="bottom" constant="20" id="7SQ-Uq-DvI"/>
+                                            <constraint firstAttribute="trailing" secondItem="i3n-hC-0ZB" secondAttribute="trailing" constant="10" id="8cx-zv-vrz"/>
+                                            <constraint firstAttribute="trailing" secondItem="rZN-ei-ZKB" secondAttribute="trailing" constant="10" id="92l-qk-YMW"/>
+                                            <constraint firstItem="L0p-RM-8x1" firstAttribute="top" secondItem="f7b-I3-BUg" secondAttribute="bottom" id="9EZ-tR-hv4"/>
+                                            <constraint firstItem="SWh-tU-6am" firstAttribute="top" secondItem="zhJ-1T-jzk" secondAttribute="bottom" id="9ju-j5-dnj"/>
+                                            <constraint firstAttribute="trailing" secondItem="SWh-tU-6am" secondAttribute="trailing" constant="10" id="AFt-FY-JOR"/>
+                                            <constraint firstItem="1FG-7z-Teo" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="Abf-fe-HNB"/>
+                                            <constraint firstItem="J6B-sG-Sog" firstAttribute="top" secondItem="Ao0-zg-ply" secondAttribute="bottom" id="Agw-Ya-vxd"/>
+                                            <constraint firstAttribute="trailing" secondItem="I7s-8H-lLN" secondAttribute="trailing" constant="10" id="B1X-02-gYe"/>
+                                            <constraint firstItem="xVa-rQ-4et" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="BnI-wo-uZL"/>
+                                            <constraint firstItem="I7s-8H-lLN" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="CqS-1O-EhO"/>
+                                            <constraint firstItem="bAy-iZ-9JR" firstAttribute="top" secondItem="bi6-I8-nY9" secondAttribute="bottom" constant="1" id="Ctr-TE-IGP"/>
+                                            <constraint firstItem="NyR-cz-Hud" firstAttribute="top" secondItem="pJH-nq-V3O" secondAttribute="bottom" id="D1r-d2-CbP"/>
+                                            <constraint firstAttribute="trailing" secondItem="QoH-pK-s82" secondAttribute="trailing" constant="10" id="DAf-cj-yMd"/>
+                                            <constraint firstItem="f7b-I3-BUg" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="DF3-RC-Mc4"/>
+                                            <constraint firstItem="DYO-Nx-3Bh" firstAttribute="top" secondItem="L0p-RM-8x1" secondAttribute="bottom" id="DuI-CK-4YD"/>
+                                            <constraint firstItem="ard-MT-9Gk" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="EhG-dO-ea4"/>
+                                            <constraint firstAttribute="trailing" secondItem="zEP-vZ-FWT" secondAttribute="trailing" constant="10" id="G3p-hf-uuj"/>
+                                            <constraint firstItem="rZN-ei-ZKB" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="GSs-sh-oK2"/>
+                                            <constraint firstItem="iI9-eL-jp5" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="GYM-4D-EAg"/>
+                                            <constraint firstAttribute="trailing" secondItem="GfU-3z-RLN" secondAttribute="trailing" constant="10" id="JSq-FC-iOS"/>
+                                            <constraint firstItem="ard-MT-9Gk" firstAttribute="top" secondItem="SWh-tU-6am" secondAttribute="bottom" id="JYC-DL-yQc"/>
+                                            <constraint firstAttribute="trailing" secondItem="xVa-rQ-4et" secondAttribute="trailing" constant="10" id="Kd8-Bc-j5R"/>
+                                            <constraint firstItem="fdc-Tb-kKS" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="KdY-AM-hjl"/>
+                                            <constraint firstItem="pJH-nq-V3O" firstAttribute="top" secondItem="I7s-8H-lLN" secondAttribute="bottom" id="Kxm-fR-dxQ"/>
+                                            <constraint firstItem="QoH-pK-s82" firstAttribute="top" secondItem="1FG-7z-Teo" secondAttribute="bottom" id="LyV-eu-tLQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="Uh1-YG-rVX" secondAttribute="trailing" constant="10" id="Mcj-5j-uTd"/>
+                                            <constraint firstItem="i3n-hC-0ZB" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="NCr-Xw-eL9"/>
+                                            <constraint firstAttribute="trailing" secondItem="iI9-eL-jp5" secondAttribute="trailing" constant="10" id="OnA-8C-eq8"/>
+                                            <constraint firstItem="fFp-ke-Ey8" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="P0p-Rb-oCk"/>
+                                            <constraint firstAttribute="trailing" secondItem="2We-fx-WS6" secondAttribute="trailing" constant="10" id="Pw5-np-PYl"/>
+                                            <constraint firstItem="i3n-hC-0ZB" firstAttribute="top" secondItem="DYO-Nx-3Bh" secondAttribute="bottom" id="QU2-v2-HMm"/>
+                                            <constraint firstItem="bi6-I8-nY9" firstAttribute="top" secondItem="lIh-an-Pg0" secondAttribute="bottom" id="RZ9-9r-ehM"/>
+                                            <constraint firstItem="lIh-an-Pg0" firstAttribute="top" secondItem="uYh-Ba-FUG" secondAttribute="bottom" id="SMX-Nf-MIB"/>
+                                            <constraint firstItem="2We-fx-WS6" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="TeG-c4-2UN"/>
+                                            <constraint firstItem="L0p-RM-8x1" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="UeZ-bt-tFH"/>
+                                            <constraint firstAttribute="trailing" secondItem="f7b-I3-BUg" secondAttribute="trailing" constant="10" id="VED-Ul-yx9"/>
+                                            <constraint firstItem="SWh-tU-6am" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="VHZ-GG-40P"/>
+                                            <constraint firstItem="NyR-cz-Hud" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="XAW-cl-kt8"/>
+                                            <constraint firstItem="qPJ-Nx-XJO" firstAttribute="top" secondItem="iI9-eL-jp5" secondAttribute="bottom" id="XG9-kJ-grl"/>
+                                            <constraint firstItem="GfU-3z-RLN" firstAttribute="top" secondItem="gqx-zt-HG6" secondAttribute="bottom" id="XOb-i3-bgL"/>
+                                            <constraint firstAttribute="trailing" secondItem="qPJ-Nx-XJO" secondAttribute="trailing" constant="10" id="YkL-IG-3JJ"/>
+                                            <constraint firstItem="G6a-So-kjh" firstAttribute="top" secondItem="QoH-pK-s82" secondAttribute="bottom" id="ZDR-2b-HPM"/>
+                                            <constraint firstAttribute="trailing" secondItem="fFp-ke-Ey8" secondAttribute="trailing" constant="10" id="ZLi-Xs-NDe"/>
+                                            <constraint firstItem="Ao0-zg-ply" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="ZMu-rg-Esj"/>
+                                            <constraint firstItem="lIh-an-Pg0" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="Zjm-kO-Adp"/>
+                                            <constraint firstItem="zEP-vZ-FWT" firstAttribute="top" secondItem="i3n-hC-0ZB" secondAttribute="bottom" id="a1v-dY-Hkd"/>
+                                            <constraint firstAttribute="trailing" secondItem="bi6-I8-nY9" secondAttribute="trailing" constant="10" id="add-d5-CP8"/>
+                                            <constraint firstAttribute="trailing" secondItem="L0p-RM-8x1" secondAttribute="trailing" constant="10" id="bkM-1T-bXZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="DYO-Nx-3Bh" secondAttribute="trailing" constant="10" id="cjY-vv-oZ2"/>
+                                            <constraint firstAttribute="trailing" secondItem="G6a-So-kjh" secondAttribute="trailing" constant="10" id="cuS-dC-Vea"/>
+                                            <constraint firstItem="gqx-zt-HG6" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="dw0-IN-u8U"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ao0-zg-ply" secondAttribute="trailing" constant="10" id="e0e-Yd-muf"/>
+                                            <constraint firstItem="fFp-ke-Ey8" firstAttribute="top" secondItem="xVa-rQ-4et" secondAttribute="bottom" id="e5I-pA-8N8"/>
+                                            <constraint firstAttribute="trailing" secondItem="zhJ-1T-jzk" secondAttribute="trailing" constant="10" id="esG-tG-py9"/>
+                                            <constraint firstItem="fvB-7V-f7k" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="ex9-f8-dcS"/>
+                                            <constraint firstAttribute="trailing" secondItem="uYh-Ba-FUG" secondAttribute="trailing" constant="10" id="ezf-5p-tOc"/>
+                                            <constraint firstItem="NLl-vg-iEV" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="f6P-dQ-3Km"/>
+                                            <constraint firstItem="bi6-I8-nY9" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="fsc-by-bS0"/>
+                                            <constraint firstAttribute="trailing" secondItem="J6B-sG-Sog" secondAttribute="trailing" constant="10" id="gUi-iX-UVo"/>
+                                            <constraint firstItem="bAy-iZ-9JR" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="iau-Cx-vDg"/>
+                                            <constraint firstAttribute="trailing" secondItem="fdc-Tb-kKS" secondAttribute="trailing" constant="10" id="j6m-QR-SG8"/>
+                                            <constraint firstItem="DYO-Nx-3Bh" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="jbl-zJ-qGj"/>
+                                            <constraint firstAttribute="trailing" secondItem="lIh-an-Pg0" secondAttribute="trailing" constant="10" id="jgq-p0-xNY"/>
+                                            <constraint firstAttribute="trailing" secondItem="pJH-nq-V3O" secondAttribute="trailing" constant="10" id="js5-g0-luK"/>
+                                            <constraint firstItem="pJH-nq-V3O" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="k7n-59-zJO"/>
+                                            <constraint firstAttribute="trailing" secondItem="gqx-zt-HG6" secondAttribute="trailing" constant="10" id="l3r-Ov-NI8"/>
+                                            <constraint firstItem="gqx-zt-HG6" firstAttribute="top" secondItem="NyR-cz-Hud" secondAttribute="bottom" id="l9Z-aK-tp7"/>
+                                            <constraint firstItem="NLl-vg-iEV" firstAttribute="top" secondItem="zEP-vZ-FWT" secondAttribute="bottom" id="lV9-1r-IAF"/>
+                                            <constraint firstItem="fvB-7V-f7k" firstAttribute="top" secondItem="G6a-So-kjh" secondAttribute="bottom" id="nEe-pA-Zr3"/>
+                                            <constraint firstItem="Uh1-YG-rVX" firstAttribute="top" secondItem="J6B-sG-Sog" secondAttribute="bottom" id="nGe-5v-4sw"/>
+                                            <constraint firstItem="zhJ-1T-jzk" firstAttribute="top" secondItem="fdc-Tb-kKS" secondAttribute="bottom" id="oNG-tZ-qo6"/>
+                                            <constraint firstItem="fdc-Tb-kKS" firstAttribute="top" secondItem="fvB-7V-f7k" secondAttribute="bottom" id="qkO-cf-97D"/>
+                                            <constraint firstItem="zEP-vZ-FWT" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="rkr-E3-Kip"/>
+                                            <constraint firstAttribute="trailing" secondItem="NLl-vg-iEV" secondAttribute="trailing" constant="10" id="sSG-6n-06m"/>
+                                            <constraint firstItem="QoH-pK-s82" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="teg-aX-Im7"/>
+                                            <constraint firstItem="xVa-rQ-4et" firstAttribute="top" secondItem="Uh1-YG-rVX" secondAttribute="bottom" id="trK-Ih-Ihc"/>
+                                            <constraint firstItem="iI9-eL-jp5" firstAttribute="top" secondItem="GfU-3z-RLN" secondAttribute="bottom" id="vmR-fY-4cP"/>
+                                            <constraint firstAttribute="trailing" secondItem="bAy-iZ-9JR" secondAttribute="trailing" constant="10" id="wP3-lr-K9z"/>
+                                            <constraint firstItem="uYh-Ba-FUG" firstAttribute="top" secondItem="2We-fx-WS6" secondAttribute="bottom" id="wS1-jg-ibI"/>
+                                            <constraint firstAttribute="trailing" secondItem="NyR-cz-Hud" secondAttribute="trailing" constant="10" id="xAI-nT-Q43"/>
+                                            <constraint firstItem="G6a-So-kjh" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="xM9-uR-IdT"/>
+                                            <constraint firstItem="J6B-sG-Sog" firstAttribute="leading" secondItem="vYN-sb-DkT" secondAttribute="leading" constant="10" id="y1z-NS-jFW"/>
+                                            <constraint firstAttribute="trailing" secondItem="fvB-7V-f7k" secondAttribute="trailing" constant="10" id="yBQ-ZK-0KQ"/>
+                                            <constraint firstItem="2We-fx-WS6" firstAttribute="top" secondItem="ard-MT-9Gk" secondAttribute="bottom" id="ywV-qu-Kyx"/>
+                                            <constraint firstItem="f7b-I3-BUg" firstAttribute="top" secondItem="fFp-ke-Ey8" secondAttribute="bottom" id="z6v-zj-IcZ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vYN-sb-DkT" firstAttribute="width" secondItem="vur-2Z-OGa" secondAttribute="width" id="F2u-qb-1yl"/>
+                                    <constraint firstItem="vYN-sb-DkT" firstAttribute="trailing" secondItem="cQU-JL-XVH" secondAttribute="trailing" id="RHD-E0-Urs"/>
+                                    <constraint firstItem="vYN-sb-DkT" firstAttribute="top" secondItem="cQU-JL-XVH" secondAttribute="top" id="TYU-BZ-iF6"/>
+                                    <constraint firstItem="vYN-sb-DkT" firstAttribute="leading" secondItem="cQU-JL-XVH" secondAttribute="leading" id="WT8-ze-bjR"/>
+                                    <constraint firstItem="vYN-sb-DkT" firstAttribute="bottom" secondItem="cQU-JL-XVH" secondAttribute="bottom" id="v7e-v3-Ezr"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="cQU-JL-XVH"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="vur-2Z-OGa"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uov-0m-lvJ" firstAttribute="top" secondItem="TjN-Uc-ICP" secondAttribute="bottom" constant="10" id="CoC-Tc-Ffl"/>
+                            <constraint firstAttribute="bottom" secondItem="uov-0m-lvJ" secondAttribute="bottom" id="PTX-At-SHo"/>
+                            <constraint firstAttribute="trailing" secondItem="uov-0m-lvJ" secondAttribute="trailing" id="ahA-JE-D7d"/>
+                            <constraint firstItem="TjN-Uc-ICP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fgQ-HE-yqK"/>
+                            <constraint firstItem="uov-0m-lvJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oaA-2v-Kj0"/>
+                            <constraint firstAttribute="trailing" secondItem="TjN-Uc-ICP" secondAttribute="trailing" id="tvx-3u-aPx"/>
+                            <constraint firstItem="TjN-Uc-ICP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uqj-tc-sMZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Genesis 1" id="ilZ-am-OnP"/>
+                    <connections>
+                        <outletCollection property="verses" destination="1FG-7z-Teo" collectionClass="NSMutableArray" id="z02-ta-LOI"/>
+                        <outletCollection property="verses" destination="QoH-pK-s82" collectionClass="NSMutableArray" id="Qls-Z7-ghj"/>
+                        <outletCollection property="verses" destination="G6a-So-kjh" collectionClass="NSMutableArray" id="yGc-jo-NPW"/>
+                        <outletCollection property="verses" destination="fvB-7V-f7k" collectionClass="NSMutableArray" id="ZgF-Uk-yeV"/>
+                        <outletCollection property="verses" destination="fdc-Tb-kKS" collectionClass="NSMutableArray" id="noS-vc-ROF"/>
+                        <outletCollection property="verses" destination="zhJ-1T-jzk" collectionClass="NSMutableArray" id="2Ua-Cj-o9C"/>
+                        <outletCollection property="verses" destination="SWh-tU-6am" collectionClass="NSMutableArray" id="U0W-LK-J8q"/>
+                        <outletCollection property="verses" destination="ard-MT-9Gk" collectionClass="NSMutableArray" id="eXp-kX-pas"/>
+                        <outletCollection property="verses" destination="2We-fx-WS6" collectionClass="NSMutableArray" id="Hpi-z8-6cS"/>
+                        <outletCollection property="verses" destination="uYh-Ba-FUG" collectionClass="NSMutableArray" id="rr5-hL-cLq"/>
+                        <outletCollection property="verses" destination="lIh-an-Pg0" collectionClass="NSMutableArray" id="AmR-1Y-k8Y"/>
+                        <outletCollection property="verses" destination="bi6-I8-nY9" collectionClass="NSMutableArray" id="Rag-eg-yhO"/>
+                        <outletCollection property="verses" destination="bAy-iZ-9JR" collectionClass="NSMutableArray" id="eOf-HV-tDu"/>
+                        <outletCollection property="verses" destination="I7s-8H-lLN" collectionClass="NSMutableArray" id="HKM-t6-KTs"/>
+                        <outletCollection property="verses" destination="pJH-nq-V3O" collectionClass="NSMutableArray" id="AzH-g8-F4F"/>
+                        <outletCollection property="verses" destination="NyR-cz-Hud" collectionClass="NSMutableArray" id="1Pl-Sc-Ktm"/>
+                        <outletCollection property="verses" destination="gqx-zt-HG6" collectionClass="NSMutableArray" id="Qu5-JG-MJt"/>
+                        <outletCollection property="verses" destination="GfU-3z-RLN" collectionClass="NSMutableArray" id="eeE-4q-Fzp"/>
+                        <outletCollection property="verses" destination="iI9-eL-jp5" collectionClass="NSMutableArray" id="4So-EG-kYK"/>
+                        <outletCollection property="verses" destination="qPJ-Nx-XJO" collectionClass="NSMutableArray" id="9zD-tm-dkK"/>
+                        <outletCollection property="verses" destination="Ao0-zg-ply" collectionClass="NSMutableArray" id="Ydc-g0-RAX"/>
+                        <outletCollection property="verses" destination="J6B-sG-Sog" collectionClass="NSMutableArray" id="hOF-br-hIn"/>
+                        <outletCollection property="verses" destination="Uh1-YG-rVX" collectionClass="NSMutableArray" id="ros-Qr-xRg"/>
+                        <outletCollection property="verses" destination="xVa-rQ-4et" collectionClass="NSMutableArray" id="sr2-xy-SdG"/>
+                        <outletCollection property="verses" destination="fFp-ke-Ey8" collectionClass="NSMutableArray" id="das-ll-LOZ"/>
+                        <outletCollection property="verses" destination="f7b-I3-BUg" collectionClass="NSMutableArray" id="qGO-mU-SWH"/>
+                        <outletCollection property="verses" destination="L0p-RM-8x1" collectionClass="NSMutableArray" id="W3k-Gv-EOx"/>
+                        <outletCollection property="verses" destination="DYO-Nx-3Bh" collectionClass="NSMutableArray" id="MV3-VJ-iIf"/>
+                        <outletCollection property="verses" destination="i3n-hC-0ZB" collectionClass="NSMutableArray" id="vGw-4K-csH"/>
+                        <outletCollection property="verses" destination="zEP-vZ-FWT" collectionClass="NSMutableArray" id="YeR-p6-c9q"/>
+                        <outletCollection property="verses" destination="NLl-vg-iEV" collectionClass="NSMutableArray" id="XiU-tT-5hI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.85981308411215" y="88.120950323974085"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
